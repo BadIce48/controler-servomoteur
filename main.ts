@@ -6,4 +6,9 @@ basic.forever(function () {
         servos.P0.setAngle(angle)
         basic.pause(200)
     }
+    for (let index_2 = 0; index_2 <= 24; index_2++) {
+        angle = index_2 * 5 + -5
+        servos.P0.setAngle(angle)
+        basic.pause(200)
+    }
 })
